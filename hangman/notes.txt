@@ -1,0 +1,14 @@
+hangman
+
+python
+
+- plays hangman!
+- visuals:
+	word with blank spaces
+	hangman
+	letters already guesses
+- prompts user for their word they want to choose 
+- prompts user for the letter they choose
+	- loops through word
+		- if word contains letter, add it to the visuals
+		- if not, remove a limp from the hangman and add it too the visuals
